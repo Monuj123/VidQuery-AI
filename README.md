@@ -1,4 +1,4 @@
-# VidQuery-AI
+# YT AnswerBot
 A Retrieval-Augmented Generation (RAG) AI agent that answers questions using YouTube video transcripts.
 
 # Overview
