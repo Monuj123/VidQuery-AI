@@ -10,16 +10,14 @@ A Retrieval-Augmented Generation (RAG) AI agent that answers questions using You
 
 # Features
 - YouTube Video Ingestion – Automatically fetches and stores transcripts.
-- Semantic Search – Finds relevant video segments using embeddings.
 - Conversational AI – Claude 3 generates natural, context-aware answers.
-- Threaded Chat – Maintains conversation history via thread_id.
 - React Frontend – Clean, interactive chat interface.
 
 # Tech Stack
-- Backend	Node.js, Express.js, PostgreSQL (PGVector)
-- AI/ML	LangChain (tools, retrieval), LangGraph (agent), Claude 3, OpenAI embeddings
-- Data Pipeline	Bright Data (YouTube scraping)
-- Frontend	React (TypeScript), CSS
+- Backend	- Node.js, Express.js, PostgreSQL (PGVector)
+- AI/ML	LangChain - (tools, retrieval), LangGraph (agent), Claude 3, OpenAI embeddings
+- Data Pipeline	- Bright Data (YouTube scraping)
+- Frontend	- React (TypeScript), CSS
 
 # Setup
 - Prerequisites
@@ -32,21 +30,25 @@ A Retrieval-Augmented Generation (RAG) AI agent that answers questions using You
 
 # Installation
 - Clone the repo
-    - git clone https://github.com/yourusername/youtube-qa-rag.git
-    - cd youtube-qa-rag
+  
+      - git clone https://github.com/yourusername/VidQuery_AI.git
+      - cd VidQuery_AI
+  
 - Set up environment variables
-    - Create .env files in /server and /client:
-    - Server/.env
-        - DB_URL=postgresql://user:pass@localhost:5432/ragdb
+
+        - DB_URL=postgresql://user:pass@localhost:5432/VidQuery_AI
         - OPENAI_API_KEY=your_key
         - ANTHROPIC_API_KEY=your_key
         - BRIGHTDATA_API_KEY=your_key
       
 - Run the backend
-    - cd server
-    - npm install
-    - npm start  # Starts Express server at http://localhost:3000
+  
+        - cd server
+        - npm install
+        - npm start  # Starts Express server at http://localhost:3000
+  
 - Run the frontend
-    - cd client
-    - npm install
-    - npm run dev  # Starts React app at http://localhost:5173
+  
+        - cd client
+        - npm install
+        - npm run dev  # Starts React app at http://localhost:5173
