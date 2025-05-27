@@ -3,10 +3,10 @@ A Retrieval-Augmented Generation (RAG) AI agent that answers questions using You
 
 # Overview
 - This project is an AI-powered Q&A system that lets users ask questions about YouTube videos. It combines:
-- Real-time video scraping (Bright Data)
-- Vector search (PGVector + OpenAI embeddings)
-- LLM-powered responses (Anthropic Claude 3)
-- Stateful agent workflows (LangChain + LangGraph)
+  - Real-time video scraping (Bright Data)
+  - Vector search (PGVector + OpenAI embeddings)
+  - LLM-powered responses (Anthropic Claude 3)
+  - Stateful agent workflows (LangChain + LangGraph)
 
 # Features
 - YouTube Video Ingestion – Automatically fetches and stores transcripts.
@@ -15,7 +15,7 @@ A Retrieval-Augmented Generation (RAG) AI agent that answers questions using You
 
 # Tech Stack
 - Backend	- Node.js, Express.js, PostgreSQL (PGVector)
-- AI/ML	LangChain - (tools, retrieval), LangGraph (agent), Claude 3, OpenAI embeddings
+- AI/ML	- LangChain(tools, retrieval), LangGraph (agent), Claude 3, OpenAI embeddings
 - Data Pipeline	- Bright Data (YouTube scraping)
 - Frontend	- React (TypeScript), CSS
 
@@ -31,21 +31,21 @@ A Retrieval-Augmented Generation (RAG) AI agent that answers questions using You
 # Installation
 - Clone the repo
   
-      - git clone https://github.com/yourusername/VidQuery_AI.git
-      - cd VidQuery_AI
+       git clone https://github.com/yourusername/VidQuery_AI.git
+       cd VidQuery_AI
   
 - Set up environment variables
 
-        - DB_URL=postgresql://user:pass@localhost:5432/VidQuery_AI
-        - OPENAI_API_KEY=your_key
-        - ANTHROPIC_API_KEY=your_key
-        - BRIGHTDATA_API_KEY=your_key
+         DB_URL=postgresql://user:pass@localhost:5432/VidQuery_AI
+         OPENAI_API_KEY=your_key
+         ANTHROPIC_API_KEY=your_key
+         BRIGHTDATA_API_KEY=your_key
       
 - Run the backend
   
-        - cd server
-        - npm install
-        - npm start  # Starts Express server at http://localhost:3000
+         cd server
+         npm install
+         npm start  # Starts Express server at http://localhost:3000
   
 - Run the frontend
   
