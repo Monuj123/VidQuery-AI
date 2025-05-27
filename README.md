@@ -49,6 +49,6 @@ A Retrieval-Augmented Generation (RAG) AI agent that answers questions using You
   
 - Run the frontend
   
-        - cd client
-        - npm install
-        - npm run dev  # Starts React app at http://localhost:5173
+         cd client
+         npm install
+         npm run dev  # Starts React app at http://localhost:5173
