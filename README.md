@@ -36,17 +36,17 @@ A Retrieval-Augmented Generation (RAG) AI agent that answers questions using You
     - cd youtube-qa-rag
 - Set up environment variables
     - Create .env files in /server and /client:
-    - # Server/.env
-        DB_URL=postgresql://user:pass@localhost:5432/ragdb
-        OPENAI_API_KEY=your_key
-        ANTHROPIC_API_KEY=your_key
-        BRIGHTDATA_API_KEY=your_key
+    - Server/.env
+        - DB_URL=postgresql://user:pass@localhost:5432/ragdb
+        - OPENAI_API_KEY=your_key
+        - ANTHROPIC_API_KEY=your_key
+        - BRIGHTDATA_API_KEY=your_key
       
 - Run the backend
-    cd server
-    npm install
-    npm start  # Starts Express server at http://localhost:3000
+    - cd server
+    - npm install
+    - npm start  # Starts Express server at http://localhost:3000
 - Run the frontend
-    cd client
-    npm install
-    npm run dev  # Starts React app at http://localhost:5173
+    - cd client
+    - npm install
+    - npm run dev  # Starts React app at http://localhost:5173
